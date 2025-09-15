@@ -1,6 +1,6 @@
 name: theme_extension_gen
 description: Package for generating theme-extensions
-version: 1.0.0
+version: 1.0.1
 
 repository: https://github.com/DiFo89/theme_extension_gen
 homepage: https://github.com/DiFo89/theme_extension_gen
