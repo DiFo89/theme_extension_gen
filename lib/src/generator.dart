@@ -17,6 +17,7 @@ class ThemeExtensionGenGenerator
         element: element,
       );
     }
+
     final className = element.name!;
     final fields = _getClassFields(element);
     return _generateClass(className, fields);

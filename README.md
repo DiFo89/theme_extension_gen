@@ -13,8 +13,9 @@ Or register it in the console:
 Generation is carried out by means of annotations.
 
 ## Usage
-You need to add the annotation `@ThemeExtensionGen()` above the class, as well as the `part 'theme_colors.g.dart';`:
-'''part 'theme_colors.g.dart';
+You need to add the annotation `@ThemeExtensionGen()` above the class, as well as the `part 'theme_colors.theme.g.dart';`:
+```
+part 'theme_colors.g.dart';
 @ThemeExtensionGen()
 class ColorsExtension {
   final Color background; //Стандартный задний фон
@@ -49,7 +50,8 @@ class ColorsExtension {
         bottomBarIconUnselected: const Color.fromRGBO(183, 183, 183, 1),
         bottomBarIconSelected: const Color.fromRGBO(20, 142, 255, 1),
         disabledPrimaryButtonBackground: const Color.fromRGBO(210, 210, 210, 1),);
-}'''
+}
+```
 Then call `dart run build_runner build` from a terminal and a file with styles will be generated.
 
 ## Additional information
