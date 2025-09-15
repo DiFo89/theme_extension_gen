@@ -6,3 +6,4 @@
 
 - Renamed a extension of generated files.
 - changed readme.
+- Compatibility with other gen packages.
